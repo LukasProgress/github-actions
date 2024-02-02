@@ -4,9 +4,13 @@ on:
   pull_request:
     branches:
       - 'main'
+    paths: 
+      - '**.js'
   push:
     branches:
       - 'main'
+    paths: 
+      - '**.js'
 
 permissions: read-all
 
